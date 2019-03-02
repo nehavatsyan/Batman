@@ -23,49 +23,58 @@ footer{background-color:#000000;
 
 /*why*/
 .hi{
-    margin: 50px 500px;
-    width :60%;
+    margin:20px auto;
+    width :100%;
     font-family:Arial,"Time New Roman";
     font-size: 15px;
     color:#000000;
 }
-.hf{   margin: 50px 350px;
-    width :60%;
+.hf{  
+    margin:20px auto;
+    width :100%;
     font-family:Arial,"Time New Roman";
     font-size: 15px;
     color:#000000;
 }
 .hii{
-    margin: 50px 500px;
-    width :60%;
+    margin:20px auto;
+    width :100%;
     font-family:Arial,"Time New Roman";
     font-size: 15px;
     color:#000000;
  }
 .hff{
-    margin: 50px 350px;
-    width :60%;
+    margin:20px auto;
+    width :100%;
     font-family:Arial,"Time New Roman";
     font-size: 15px;
     color:#000000;
  }
-.imi{
-  position:absolute;
-  left:250px;
-  top:160px;
+
+.coloumn
+{
+    margin:0px 30px 0px 0px;
+    padding:10px 10px 10px 10px;
+    float:left;
+    text-align: justify;
 }
-.imii{
-   position:absolute;
-   left:1200px;
-   top:350px;
+#row{
+    margin-top:30px;
 }
-.imis{
-   position:absolute;
-  left:250px;
-  top:500px;
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
-.imiis{
-    position:absolute;
-   left:1200px;
-   top:700px;
+@media screen and (max-width: 1000px) {
+    .coloumn {
+        width: 100%;
+        margin:30px auto;
+      
+
+    }
+    #get{
+        margin-left:35px;
+    }
 }
