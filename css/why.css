@@ -1,0 +1,22 @@
+/*navbar css*/
+#nav{
+    color:yellow;
+}
+#nav:hover{
+    background-color:#ffffcc;
+    
+    color:black;
+
+}
+#headr{
+    width:100%;
+    background-color:black;
+    padding:0px 80px 0px 100px;
+}
+/*footer*/
+footer{background-color:#000000;
+    font-size: 15px;
+    color:#ffffff;
+    padding:10px 20px 20px 20px;
+    margin-top:100px;
+   }
