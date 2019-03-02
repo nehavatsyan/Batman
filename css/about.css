@@ -20,3 +20,28 @@ footer{background-color:#000000;
     padding:10px 20px 20px 20px;
     margin-top:100px;
    }
+/*body*/
+.whole{
+    font-family:Arial,"Time New Roman";	
+    font-size: 20px;
+    color:#000000;
+    margin:120px;
+    
+   
+  }
+.ff{
+position:absolute;
+top:200px;
+left:500px;
+margin:20px auto;
+padding:10px 20px 20px 20px;
+width:800px;
+}
+.ss{
+position:absolute;
+margin:20px auto;
+padding:10px 20px 20px 20px;
+width:800px;
+top:300px;
+left:500px;
+}
