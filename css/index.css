@@ -22,9 +22,10 @@ color:#000000;
  font-size: 15px;
  margin:20px auto;
  padding:10px 20px 20px 20px;
- width:800px;
+ width:80%;
  background-color:#eeeeee;
  color:#000000;
+ text-align: justify;
 
 }
 .divf{
@@ -32,37 +33,40 @@ color:#000000;
  border: 2px dotted red;
  margin:20px auto;
  padding:10px 20px 20px 20px;
- width:800px;
+ width:80%;
  background-color:#ffffff;
  color:#000000;
+ text-align: justify;
 }
 .divs{
  font-size: 15px;
  border: 2px solid red;
  margin:20px auto;
  padding:10px 20px 20px 20px;
- width:800px;
+ width:80%;
  background-color:#ffffff;
  color:#000000;
+ text-align: justify;
 }
 .aukha{
     position:absolute;
     color:#ffff00;
-    top:200px;
-    left:100px;
+    top:10vh;
+    left:10vw;
 
   }
 .auk{
     position:absolute;
     color:#ffff00;
-    top:300px;
-    left:100px; 
+    top:20vh;
+    left:10vw; 
 }
 
 /*footer*/
-footer{background-color:#000000;
+footer
+{   background-color:#000000;
     font-size: 15px;
     color:#ffffff;
     padding:10px 20px 20px 20px;
     margin-top:100px;
-   }
+}

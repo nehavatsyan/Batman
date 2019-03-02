@@ -45,3 +45,29 @@ width:800px;
 top:300px;
 left:500px;
 }
+.coloumn
+{   margin:0px 30px 0px 0px;
+    padding:10px 10px 10px 10px;
+    float:left;
+    text-align: justify;
+}
+#row{
+    margin-top:30px;
+}
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 1000px) {
+    .coloumn {
+        width: 100%;
+        margin:10px ;
+      
+
+    }
+    #get{
+        margin-left:35px;
+    }
+}

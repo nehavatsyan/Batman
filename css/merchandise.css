@@ -26,6 +26,7 @@
     border-radius: 10px;
     padding:10px 10px 10px 10px;
     float:left;
+    text-align: justify;
 }
 #row{
     margin-top:30px;
